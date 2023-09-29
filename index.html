@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inputs-div">
+            <form>
+                <div class="input-card">
+                    <p>DAY</p>
+                    <input type="number" name="day" placeholder="DD" id="day" required>
+                    <p class="error-msg day-msg"></p>
+                </div>
+                <div class="input-card">
+                    <p>MONTH</p>
+                    <input type="number" name="month" placeholder="MM" id="month" required>
+                    <p class="error-msg month-msg"></p>
+                </div>
+                <div class="input-card">
+                    <p>YEAR</p>
+                    <input type="number" name="year" placeholder="YYYY" id="year" required>
+                    <p class="error-msg year-msg"></p>
+                </div>
+                <div class="input-submit"> 
+                    <button type="submit" id="submit-btn">
+                        <img src="images/arrow-down.svg" alt="">
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="show-case">
+            <div class="show year">
+                <p><span class="years">--</span>years</p>
+            </div>
+            <div class="show month">
+                <p><span class="months">--</span>months</p>
+            </div>
+            <div class="show day">
+                <p><span class="days">--</span>days</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
